@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+     <header>
+           <div class="logo">
+               <h1>A V T O</h1>
+           </div>
+
+           <nav>
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Skills</a></li>
+            </ul>
+           </nav>
+     </header>
+
+     <main>
+
+        <section class="About_section">
+
+          <div class="photo_smalldesc">
+            
+            <img class="img1" src="user.png" alt="userPhoto">
+           <h2>
+            I'm <span class="spn1"> A V T O </span> <br>
+            Frontend Developer
+           </h2>
+          </div>
+
+
+          <div class="description">
+
+            <p>
+                I’m a Frontend Developer — I build modern, responsive, and visually clean <br> websites using HTML, CSS, 
+                and JavaScript. I’m passionate about creating <br> smooth user experiences, writing clean and efficient code, 
+                and continuously<br> improving my design and development skills to bring creative ideas to life.
+            </p>
+            </div>
+
+        </section>
+
+
+         <section class="Projects_section">
+             <h2 class="h22">My Projects</h2>
+        <div class="projects">
+             <div class="first_project">
+               <h4 class="hh4">Bank Dashboard</h4>
+               <img class="img2" src="bank.png" alt="BankDashboard">
+            </div>
+            <div class="second_project">
+              <h4 class="hh4_2">Card Component</h4>
+              <img class="img3" src="card.png" alt="Card">
+            </div>
+          </div>  
+        </section>
+
+
+
+       <section class="Skills">
+            <h4 class="hh4_3">My Skills:</h4>
+            <p>
+                HTML · CSS · JavaScript · React · Git · GitHub
+            </p>
+         </section>
+     </main>
+
+     <footer>
+        <h3>Contact Me :</h3>
+        <label for="inp1">Name :</label>
+        <input id="inp1" type="text" placeholder="Name" required>
+        <label for="inp2">Surname :</label>
+        <input id="inp2" type="text" placeholder="Surname" required>
+        <label for="inp3">Number :</label>
+        <input id="inp3" type="number" placeholder="Phone" required>
+        <label for="inp4">Email :</label>
+        <input id="inp4" type="email" placeholder="Email" required>
+        <div class="btn">
+        <button class="btn1" onclick="sent()">Submit</button>
+        </div>
+     </footer>
+
+  
+    <script src="main.js"></script> 
+</body>
+</html>
