@@ -1,0 +1,18 @@
+body {
+   background:linear-gradient(80deg, rgb(228, 37, 37), rgb(0, 0, 0));
+}
+
+img {
+    width: auto;
+  max-width: 330px;
+
+}
+
+article {
+    display: grid;
+    grid-template-columns: repeat(40px, 40px);
+    grid-column: auto;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+}

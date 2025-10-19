@@ -1,0 +1,21 @@
+body {
+    background:linear-gradient(90deg, rgb(228, 37, 37), rgb(0, 0, 0));
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+article {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+p {
+    font-size: 18px;
+}
+
+h2 span {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
